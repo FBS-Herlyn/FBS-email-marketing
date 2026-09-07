@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PFM's QPU Ecopy</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Anton", Helvetica, Arial, Verdana, sans-serif !important;
+        color: #333;
+        overflow-x: hidden;
+      }
+      ul li {
+        list-style: none;
+      }
+      .canvas {
+        width: 700px;
+        margin: 0 auto;
+        background-color: #f9f9f9;
+      }
+      table {
+        border-spacing: 0;
+      }
+      img {
+        object-fit: cover;
+      }
+
+      @media screen and (min-width: 340px) and (max-width: 520px) {
+        .canvas {
+          width: 100% !important;
+          background-color: #f9f9f9 !important;
+        }
+        .container {
+          width: 100% !important;
+          padding: 0 !important;
+          margin: 0 auto !important;
+        }
+        .newsLetter {
+          padding: 0 !important;
+        }
+        table {
+          width: 520px !important;
+        }
+        p {
+          font-size: 18px !important;
+        }
+        .pfm-logo img {
+          width: 400px !important;
+          margin-bottom: 15px !important;
+        }
+        .church-planting-logo img {
+          width: 150px !important;
+        }
+        .description {
+          padding: 20px 32px !important;
+        }
+        .description h1 {
+          font-size: 22px !important;
+          text-align: center !important;
+        }
+        .description p {
+          margin: 20px 0 !important;
+        }
+        .group-photo img {
+          width: 100% !important;
+          padding: 0 32px !important;
+        }
+        .group-photo p {
+          padding: 0 32px !important;
+        }
+        .two-photo img {
+          width: 100% !important;
+          padding: 0 32px !important;
+        }
+        .two-photo p {
+          padding: 0 32px !important;
+        }
+        .pastor-max img {
+          width: 300px !important;
+        }
+        .donate h2 {
+          padding: 28px 32px !important;
+        }
+        .donate a {
+          padding: 20px 30px !important;
+        }
+        .footer p {
+          font-size: 12px !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <section
+      class="newsletter"
+      style="background-color: white; padding: 10px 0"
+    >
+      <div
+        class="container"
+        style="width: 700px; margin: 0 auto; background-color: white"
+      >
+        <div class="canvas">
+          <!-- logo -->
+          <div class="pfm-logo">
+            <a href="#">
+              <img
+                src="https://lh3.googleusercontent.com/pw/AP1GczNaARMP9t5EdyDcv9Tzbb6m2d9nYJHO71E2-OgN-HApsQKoxlqOjscQa43cEXsTJwzWM2ytoETuAl3x_yBytjInzNo5oWHlaXLzynOoHXSytciw6zI=w2400 "
+                alt="PFM-LOGO"
+                style="
+                  width: 100%;
+                  padding: 24px 32px;
+                  margin-bottom: 25px;
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  cursor: default;
+                  border-bottom: 2px solid #b84011;
+                "
+            /></a>
+          </div>
+          <div class="church-planting-logo">
+            <a href="#">
+              <img
+                src="https://lh3.googleusercontent.com/pw/AP1GczOwyIWVfBn6Jf5eVixChSlUUeSaeJWg2NA7hR68YwPJIyhfF1j72t1mFR7a46skt4ev6oNzq9h3cq64lMHPX_Jo487Cbh9raQyqzSy0wxcovblgIQ4=w2400"
+                alt="CHURCH-PLANTING-LOGO"
+                style="
+                  width: 200px;
+                  display: block;
+                  margin: 0 auto;
+                  cursor: default;
+                "
+            /></a>
+          </div>
+          <!-- description -->
+          <div class="description" style="padding: 32px">
+            <h1
+              style="
+                text-align: center;
+                font-size: 25px;
+                font-weight: normal;
+                color: #5c0701;
+              "
+            >
+              Luzon… Visayas… Mindanao… Here we come!
+            </h1>
+            <p
+              style="
+                font-size: 16px;
+                text-align: justify;
+                line-height: 25px;
+                margin-top: 32px;
+              "
+            >
+              Recently, our team conducted a church-planting training in Naval,
+              Leyte—a long yet deeply rewarding journey. From day one, the
+              pastors and workers were so challenged and impressed, many were
+              asking us to bring the training to their churches and communities.
+              Even the region’s largest church organization has now invited us
+              to share our training with them.
+            </p>
+          </div>
+          <!-- group photo with description -->
+          <div class="group-photo">
+            <a href="#">
+              <img
+                src="https://lh3.googleusercontent.com/pw/AP1GczP1TUWrJ_ARXPUnAIvNSY0JH_bP6ARDRb4nkfs6U6XEyp9745Rlx1bJ8lQIj892Gjjolz4mfw7jB88xQieZLP0qg_8zK4Bxts8BDkMEpqRyXxpxwbo=w2400"
+                alt="GROUP-IMG"
+                style="
+                  width: 640px;
+                  display: block;
+                  margin: 0 auto;
+                  cursor: default;
+                "
+            /></a>
+            <p
+              style="
+                font-size: 16px;
+                text-align: justify;
+                max-width: 650px;
+                line-height: 25px;
+                margin: 35px auto;
+              "
+            >
+              On the final day, participants were asked to write down their big
+              dreams for their churches and cities. Watching Pastors and leaders
+              present and discuss their dreams, many in tears, is profoundly
+              moving. The emotion in the room was palpable as people cried out
+              to God, seeking His guidance to grow and establish more churches.
+              What stood out the most was seeing both young and old pastors
+              reignite their passion for the mission of Christ. Their sincerity
+              and renewed sense of calling deeply touched our hearts.
+            </p>
+            <p
+              style="
+                font-size: 16px;
+                text-align: justify;
+                max-width: 650px;
+                line-height: 25px;
+                margin-bottom: 35px;
+                margin-left: auto;
+                margin-right: auto;
+              "
+            >
+              A particularly emotional moment came when two individuals with
+              disabilities shared their dream to actively advance God’s Kingdom.
+              Despite their challenges, they expressed such a bold faith and
+              determination. Their courage to pursue their calling, despite
+              their circumstances, was incredibly inspiring everyone. It was a
+              powerful reminder that God’s calling knows no boundaries.
+            </p>
+          </div>
+          <!-- two photo with description -->
+          <div class="two-photo">
+            <a href="#">
+              <img
+                src="https://lh3.googleusercontent.com/pw/AP1GczPoy8PfSiy20GurN0JKS1pctXuKR_qWilFx7TcmX9KMf4Mh0prpN_UvGC9lSvipMfRMw1XgOYSU8Pu74GU105NKxBEc3f3j15bveN8zMagclAjfYS8=w2400"
+                alt="PASTOR-MAX-SHARING-GOSPEL-IMG"
+                style="
+                  width: 640px;
+                  display: block;
+                  margin: 0 auto;
+                  margin-bottom: 32px;
+                  cursor: default;
+                "
+            /></a>
+            <a href="#">
+              <img
+                src="https://lh3.googleusercontent.com/pw/AP1GczMofsg4SBeS-zz0ix9g30FIpWIE71kSdqalODaxlkV-NN84VW2agkAQutxZmoLqeVG7lw8AenzWrQWmsWAA3Wp5dvWi0RInnMDsshMhXa4M4ECE37o=w2400"
+                alt="GROUP-IMG"
+                style="
+                  width: 640px;
+                  display: block;
+                  margin: 0 auto;
+                  margin-bottom: 32px;
+                  cursor: default;
+                "
+            /></a>
+
+            <p
+              style="
+                font-size: 16px;
+                text-align: justify;
+                max-width: 650px;
+                line-height: 25px;
+                margin: 20px auto;
+              "
+            >
+              We believe this is just the beginning, and are excited to see God
+              continue to transform churches and communities across the Visayan
+              Islands (central Philippines).
+            </p>
+            <p
+              style="
+                font-size: 16px;
+                text-align: justify;
+                max-width: 650px;
+                line-height: 25px;
+                margin: 20px auto;
+              "
+            >
+              To all who pray, support, and participate with us in other
+              ways—thank you! Fires are being lit, and we know these will
+              continue to burn for His glory!
+            </p>
+          </div>
+          <!-- pastor max -->
+          <div class="pastor-max">
+            <a href="#">
+              <img
+                src="https://lh3.googleusercontent.com/pw/AP1GczMsFeCefYkgl8DC1TR8CAMb-uJb4VndzqHIOLJLfljGg-AtqOvXwrMQnTah9f7xfjw4phY0DDihjtjW_TrXBXpmG0cRT9_4sKLpwQdSLoVCXLV7c5M=w2400"
+                alt="PASTOR-MAX-IMG"
+                style="
+                  width: 300px;
+                  display: block;
+                  margin-bottom: 25px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  cursor: default;
+                "
+            /></a>
+          </div>
+          <!-- donate -->
+          <div
+            class="donate"
+            style="border-top: 2px solid #eaeaea; padding-top: 15px"
+          >
+            <h2
+              style="
+                font-size: 16px;
+                text-align: center;
+                font-weight: normal;
+                background-color: #fbde7f;
+                padding: 28px 0;
+              "
+            >
+              To Partner Financially, or to “Adopt-A-Church” CLICK BELOW
+            </h2>
+            <div class="" style="text-align: center; margin-top: 12px">
+              <a
+                href="https://www.thefrontline.asia/donate-page/"
+                style="
+                  display: inline-block;
+                  background-color: #b51a00;
+                  border-radius: 10px;
+                  padding: 18px;
+                  width: 100%;
+                  text-decoration: none;
+                  color: white;
+                  font-weight: 600;
+                  font-size: 18px;
+                "
+                >DONATE HERE</a
+              >
+            </div>
+          </div>
+          <!-- social media -->
+          <div class="">
+            <table style="max-width: fit-content; margin: 20px auto">
+              <tr>
+                <td>
+                  <a href="https://www.facebook.com/fwcmainofficial">
+                    <img
+                      src="https://ci3.googleusercontent.com/meips/ADKq_NZwP62Os7snAMn37XS-BEoocPd-ncMCEUTFnm3j1ud2dsCdPWnwyajrkKx95tHGZtIZ_HSJdcutKCPX1qXjFGPPQ4lt8ETZknDLPDvJkSXISHcIfpwus4g8k2wxXm9BTApwcqHkvb5ECZOGTUUGqgnI5eRrOQpi1g=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v3/block-icons-v3/facebook-filled-color-40.png"
+                      alt="FB-LOGO"
+                      style="width: 40px; margin-right: 15px"
+                    />
+                  </a>
+                </td>
+                <td>
+                  <a href="https://frontlineworshipcenter.org/">
+                    <img
+                      src="https://ci3.googleusercontent.com/meips/ADKq_NZo5RBKjaZFKVFfaIhrsdd7ptEmFA5EmUuQL_D8tFa9GIPMYsgSpcr6sXM1ajmjNAscKKoTHeeewcrsXN5yyGz4_RmtGijtEjXD-MmWR8xOQXjmuZh435jicDweiI5zgJ6RHRLJJRPsT5se134xKPhMLRNimfUk=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v3/block-icons-v3/website-filled-color-40.png"
+                      alt="WEBSITE-LOGO"
+                      style="width: 40px"
+                    />
+                  </a>
+                </td>
+              </tr>
+            </table>
+            <div class="" style="text-align: center; margin-top: 12px">
+              <a
+                href="https://www.thefrontline.asia/"
+                style="
+                  display: inline-block;
+                  background-color: #e7bc31;
+                  padding: 18px 30px;
+                  border-radius: 10px;
+                  text-decoration: none;
+                  color: white;
+                  font-size: 18px;
+                  font-weight: 600;
+                "
+                >Philippine Frontline Ministries</a
+              >
+            </div>
+          </div>
+          <!-- footer -->
+          <div
+            class="footer"
+            style="
+              text-align: center;
+              margin-top: 62px;
+              padding-bottom: 24px;
+              padding-top: 20px;
+              border-top: 2px solid #eaeaea;
+            "
+          >
+            <p style="font-size: 12px">
+              Copyright © 2025 Philippine Frontline Ministries. <br />
+              All rights reserved.
+            </p>
+            <h5 style="font-size: 12px; margin-top: 20px">
+              Our mailing address is:
+            </h5>
+            <!-- usa -->
+            <ul style="margin-bottom: 15px">
+              <li>
+                <h5
+                  style="font-size: 12px; margin-top: 20px; line-height: 20px"
+                >
+                  USA
+                </h5>
+              </li>
+              <li>
+                <p style="font-size: 12px; line-height: 20px">
+                  Philippine Frontline Ministries, Inc. <br />
+                  PO Box 208 <br />
+                  Sandwich IL 60548, USA
+                </p>
+              </li>
+            </ul>
+            <!-- ph -->
+            <ul
+              style="text-align: center; padding: 0 32px; margin-bottom: 15px"
+            >
+              <li>
+                <h5 style="font-size: 12px; line-height: 20px">Philippines</h5>
+              </li>
+              <li>
+                <p style="font-size: 12px; line-height: 20px">
+                  Frontline Mission Center <br />
+                  Sitio Subac, Brgy. Sto. Nino <br />
+                  San Pablo City, 4000
+                </p>
+              </li>
+            </ul>
+            <!-- contact -->
+            <ul style="text-align: center; padding: 0 32px">
+              <li>
+                <h5 style="font-size: 12px; line-height: 20px">
+                  Or Call Us At :
+                </h5>
+              </li>
+              <li>
+                <p style="font-size: 12px; line-height: 20px">
+                  US : +1-815-498-3676 <br />
+                  PH : +6349-503-1559
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
